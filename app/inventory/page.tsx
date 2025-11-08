@@ -25,7 +25,6 @@ import {
   Calendar,
   Send,
   ChevronDown,
-  Bell,
   Folder,
 } from 'lucide-react';
 
