@@ -235,6 +235,7 @@ export default function OrdersPage() {
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedRows, setSelectedRows] = useState<string[]>([]);
+  const [orders, setOrders] = useState<Order[]>(sampleOrders);
 
   const filteredOrders = sampleOrders.filter((order) =>
     order.customerName.toLowerCase().includes(searchTerm.toLowerCase())
