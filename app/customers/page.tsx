@@ -240,18 +240,6 @@ export default function CustomersPage() {
             className="w-8 h-8 rounded-lg"
           />
         </div>
-        
-        <div className="px-6 py-2 flex items-center gap-3 text-xs text-gray-600 border-t border-gray-100">
-          <Home className="w-4 h-4 text-blue-500" />
-          <span>/</span>
-          <span>Customers</span>
-          <span>/</span>
-          <span>Page</span>
-          <span>/</span>
-          <span>Page</span>
-          <span>/</span>
-          <span>Page</span>
-        </div>
       </div>
 
       <div className="p-6 space-y-5">
