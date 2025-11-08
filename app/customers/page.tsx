@@ -26,7 +26,6 @@ import {
   Send,
   Copy,
   ChevronDown,
-  Home,
   Users,
   ShoppingBag,
 } from 'lucide-react';
