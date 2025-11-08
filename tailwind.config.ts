@@ -51,6 +51,22 @@ export default {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
+        nova: {
+          bg: "#F4F5FA",
+          blue: "#5570F1",
+          dark: "#1C1D22",
+          gray: {
+            50: "#F4F5FA",
+            100: "#E1E2E9",
+            200: "#BEC0CA",
+            300: "#A6A8B1",
+            400: "#8B8D97",
+            500: "#53545C",
+            600: "#45464E",
+          },
+          red: "#CC5F5F",
+          green: "#519C66",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
